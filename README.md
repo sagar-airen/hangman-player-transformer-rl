@@ -9,6 +9,7 @@ Players
 Game Simulation
 - HangmanServer: Manages game states, tracks guesses, and evaluates success rate
 
+Bonus: Also a LSTM based hangman player trained using the PPO algorithm. Unfortunately, it doesn't work very well. 
 
 ## Features
 - **Transformer Architecture**: Implements self-attention and positional embeddings
