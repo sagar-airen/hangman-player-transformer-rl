@@ -1,4 +1,4 @@
-# hangman-transformer
+# hangman-player
 
 A encoder-only Transformer model trained to play the Hangman word-guessing game. Predicts masked characters in partially revealed words using self-attention mechanisms. The trained model is used to create two different HangmanPlayers.
 
