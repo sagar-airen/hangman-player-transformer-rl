@@ -11,6 +11,8 @@ Game Simulation
 
 Bonus: Also a LSTM based hangman player trained using the PPO algorithm. Unfortunately, it doesn't work very well. 
 
+(A lot of code is borrowed from Andrej Karpathy's Let's Build GPT tutorial)
+
 ## Features
 - **Transformer Architecture**: Implements self-attention and positional embeddings
 - **Masked Prediction**: Learns to fill in missing characters in words
