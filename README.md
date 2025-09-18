@@ -1,10 +1,6 @@
 # hangman-player
 
-A encoder-only Transformer model trained to play the Hangman word-guessing game. Predicts masked characters in partially revealed words using self-attention mechanisms. The trained model is used to create two different HangmanPlayers.
-
-Players
-- HangmanPlayer: Basic player using greedy decoding
-- HangmanPlayer2: Advanced player exploring multiple candidate guesses via beam search
+An encoder-only Transformer model trained to play the Hangman word-guessing game. Predicts masked characters in partially revealed words using self-attention mechanisms. Achieves roughly 55% success rate.
 
 Game Simulation
 - HangmanServer: Manages game states, tracks guesses, and evaluates success rate
@@ -17,7 +13,6 @@ Bonus: Also a LSTM based hangman player trained using the PPO algorithm. Unfortu
 - **Transformer Architecture**: Implements self-attention and positional embeddings
 - **Masked Prediction**: Learns to fill in missing characters in words
 - **Game Integration**: Includes AI players for Hangman gameplay
-- **Beam Search**: Advanced guessing with multiple candidate explorations
 - **Training Pipeline**: Customizable hyperparameters for model optimization
 
 ## Requirements
